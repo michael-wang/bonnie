@@ -1,0 +1,2 @@
+glTextureTest detect max texture size and allocate as much as possible.
+You have to check out log for how many textures are allocated.

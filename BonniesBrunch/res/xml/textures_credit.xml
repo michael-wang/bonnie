@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+    <texture name="credit" width="1024" height="1024" >
+        <part name="credits_bg" x="0" y="0" />		<!-- 720 X 480 -->
+        <part name="help_left" x="916" y="0" />
+    </texture>
+</resource>

@@ -1,0 +1,8 @@
+bin
+gen
+proguard
+.settings
+.DS_Store
+syntax: glob
+*.lock
+*.bak

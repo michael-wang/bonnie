@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level >
+<TableConfiguration >
+	<Bagel />
+	<Croissant />
+	<Butter />
+	<Honey />
+	<Tomato />
+	<Lettuce />
+	<Cheese />
+	<MuffinLv2 />
+	<ToastLv3 />
+	<PanLv3 />
+	<Milk />
+	<Coffee />
+	<CandyLv1 />
+	<Trashcan />
+</TableConfiguration>
+<Dummy />
+</Level>

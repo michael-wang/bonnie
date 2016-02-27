@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Levels >
+
+<Level level="1" sub_level="1" type="2" total_time="20" >
+	<WhatsNewDialog drawable_name="whats_new_food_bagel" />
+	<WhatsNewDialog drawable_name="whats_new_customer_jogginggirl" />
+	<WhatsNewDialog drawable_name="whats_new_customer_balloonboy" />
+	
+	<TargetScore minimum="520" medium="780" high="1040" maximum="1300" />
+	
+	<TableConfiguration>
+		<Bagel enable="false" />
+		<Trashcan enable="false" />
+	</TableConfiguration>
+	
+	<NormalCustomer type="1" start_appearing_time="0" min_interval="5" max_interval="6" >
+		<FoodCombination weight="3" >
+			<Bagel />
+		</FoodCombination>
+	</NormalCustomer>
+	
+	<NormalCustomer type="2" start_appearing_time="0" min_interval="5" max_interval="6" >
+		<FoodCombination weight="3" >
+			<Bagel />
+		</FoodCombination>
+	</NormalCustomer>
+	
+	<!--
+	<SpecialCustomer type="1" >
+		<AppearingTime time="20" />
+		<AppearingTime time="60" />
+		<FoodCombination weight="3" >
+			<Bagel />
+		</FoodCombination>
+	</SpecialCustomer> 
+	 -->
+	
+</Level>
+
+</Levels>

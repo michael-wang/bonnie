@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level >
+	<Customer type="GirlWithDog" >
+		<Bagel />
+		<Croissant />
+		<MuffinCircle />
+		<MuffinSquare />
+		<ToastWhite />
+		<ToastBlack />
+		<ToastYellow />
+		<Egg />
+		<Ham />
+		<Sausage />
+		<Butter />
+		<Honey />
+		<Tomato />
+		<Lettuce />
+		<Cheese />
+		<Milk />
+		<Coffee />
+	</Customer>
+	<Dummy />
+</Level>

@@ -1,0 +1,7 @@
+First prototype for Bonnie's Brunch project.
+
+Target is simple, to make select level stage, user is able to scroll on screen object (sprite). Also do simple animation (little car below).
+
+Scroll sprite: gesture scroll on any part of screen, scroll all level sprite. Support boundary detection and fit level sprite into slot.
+
+Animation: play 2 images repeatedly, each showed for a specific period of time.

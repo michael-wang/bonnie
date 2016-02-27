@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sounds_list" >
+	    <item>game_table_candy_work_s1</item>
+	    <item>game_table_customer_s1</item>
+	    <item>game_table_customer_s2</item>
+	    <item>game_table_customer_s3</item>
+	    <item>game_table_machine_timeup_s1</item>
+	    <item>game_table_pan_work_s1</item>
+	    <item>game_table_pickup_s1</item>
+	    <item>game_table_pouring_s1</item>
+	    <item>game_table_sauce_s1</item>
+	    <item>game_table_toast_work_s1</item>
+	    <item>game_table_trashcan_s1</item>
+	    <item>game_table_waffle_work_s1</item>
+	    <item>game_text_1_start_s1</item>
+	    <item>game_text_2_close_s1</item>
+	    <item>game_text_3_rushtime_s1</item>
+	    <item>guest_01_sound_s1</item>
+	    <item>guest_02_sound_s1</item>
+	    <item>guest_04_sound_s1</item>
+	    <item>guest_05_puppy_s1</item>
+	    <item>guest_05_sound_s1</item>
+	    <item>guest_06_sound_s1</item>
+	    <item>guest_07_sound_s1</item>
+	    <item>guest_08_sound_s1</item>
+	    <item>guest_09_sound_s1</item>
+	    <item>guest_12_sound_s1</item>
+	    <item>mainmenu_bt_s1</item>
+	    <item>mission_guest_06_s1</item>
+	    <item>mission_guest_07_s1</item>
+	    <item>mission_guest_09_s1</item>
+	    <item>report_event_1_star_s1</item>
+	    <item>report_menu_happy_s1</item>
+	    <item>report_menu_newrecord_s1</item>
+	    <item>report_menu_sad_s1</item>
+	    <item>report_menu_star_s1</item>
+	    <item>stat_accum</item>
+    </array>
+</resources>

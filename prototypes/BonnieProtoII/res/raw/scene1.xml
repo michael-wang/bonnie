@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene >
+	<entity type="BasicEntity" id="story_1_bg" x="0" y="0" width="720" height="480" >
+		<component type="RenderComponent" width="720" height="480" texture="story_start_p1" />
+		<component type="ButtonComponent" x="0" y="0" width="720" height="480" />
+		<event_map>
+			<input type="ButtonEvent" what="1" />
+			<output type="UserEvent" what="1" entityId="story_1_bg" />
+		</event_map>
+	</entity>
+	
+	<event_map>
+		<input type="UserEvent" what="1" entityId="story_1_bg" />
+		<output type="GameEvent" what="1" />
+	</event_map>
+</scene>

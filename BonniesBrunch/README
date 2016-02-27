@@ -1,0 +1,4 @@
+Bonnies Brunch depends on external resource package: BonnieProtoII_Res.
+
+1. build and install BonnieProtoII_Res.
+2. build / install and run BonniesBrunch.

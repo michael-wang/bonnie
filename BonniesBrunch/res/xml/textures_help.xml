@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+    <texture name="help-1" width="1024" height="1024" >
+        <part name="help_card_1" x="0" y="0" />		<!-- 720 X 480 -->
+        <part name="help_card_2" x="0" y="480" />
+        
+        <part name="help_tap_back" x="722" y="0" />	<!-- 50 X 64 -->
+        <part name="help_tap_next" x="774" y="0" />
+        <part name="help_left" x="916" y="0" />		<!-- 108 X 39 -->
+    </texture>
+    
+    <texture name="help-2" width="1024" height="1024" >
+        <part name="help_card_3" x="0" y="0" />		<!-- 720 X 480 -->
+        <part name="help_card_4" x="0" y="480" />
+    </texture>
+    
+    <texture name="help-3" width="1024" height="1024" >
+        <part name="help_card_5" x="0" y="0" />		<!-- 720 X 480 -->
+        <part name="help_card_6" x="0" y="480" />
+    </texture>
+    
+    <texture name="help-4" width="1024" height="1024" >
+        <part name="help_card_7" x="0" y="0" />		<!-- 720 X 480 -->
+        <part name="help_card_8" x="0" y="480" />
+    </texture>
+</resource>

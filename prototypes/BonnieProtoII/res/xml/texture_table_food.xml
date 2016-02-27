@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+ 	<!-- table -->
+	<texture width="1024" height="1024" name="table" >
+		<part name="game_bg_01" x="0" y="0" />
+		<part name="game_table_bg" x="0" y="260" />
+		<part name="game_table_trashcan" x="720" y="0" />
+		<part name="game_table_trashcan_open" x="840" y="158" />
+		<part name="game_table_bagel" x="801" y="0" />
+		<part name="game_table_croissant" x="720" y="262" />
+		<part name="game_table_butter" x="720" y="379" />
+		<part name="game_table_honey" x="927" y="0" />
+		<part name="game_table_tomato" x="921" y="172" />
+		<part name="game_table_milk" x="837" y="272" />
+		<part name="game_table_coffee" x="917" y="272" />
+		<part name="game_table_plate_b" x="720" y="158" />
+		<part name="game_table_waffle_lv1_normal" x="781" y="379" />
+		<part name="game_table_waffle_lv1_work_1" x="873" y="379" />
+		<part name="game_table_waffle_lv1_work_2" x="873" y="512" />
+		<part name="game_table_waffle_lv2_normal" x="595" y="490" />
+		<part name="game_table_waffle_lv2_work_1" x="687" y="490" />
+		<part name="game_table_waffle_lv2_work_2" x="779" y="512" />
+		<part name="game_table_toast_lv1_normal" x="0" y="846" />
+		<part name="game_table_toast_lv1_work_1" x="116" y="846" />
+		<part name="game_table_toast_lv1_work_2" x="232" y="846" />
+		<part name="game_table_toast_lv2_normal" x="348" y="779" />
+		<part name="game_table_toast_lv2_work_1" x="464" y="779" />
+		<part name="game_table_toast_lv2_work_2" x="580" y="779" />
+		<part name="game_table_toast_lv3_normal" x="908" y="648" />
+		<part name="game_table_toast_lv3_work_1" x="792" y="648" />
+		<part name="game_table_toast_lv3_work_2" x="676" y="648" />
+		<part name="game_table_cheese" x="696" y="779" />
+		<part name="game_table_lettuce" x="768" y="779" />
+		<part name="popup_three_bg" x="0" y="490" />
+		<part name="popup_five_bg" x="233" y="490" />
+		<part name="popup_empty_bg" x="0" y="712" />
+		<part name="popup_full_bg" x="67" y="712" />
+		<part name="store_mask_00" x="134" y="712" />
+		<part name="store_mask_01" x="201" y="712" />
+		<part name="store_mask_02" x="268" y="712" />
+		<part name="store_mask_03" x="335" y="712" />
+		<part name="store_mask_04" x="402" y="712" />
+		<part name="store_mask_05" x="469" y="712" />
+		<part name="store_mask_06" x="536" y="712" />
+		<part name="store_mask_07" x="0" y="779" />
+		<part name="store_mask_08" x="67" y="779" />
+		<part name="store_mask_09" x="134" y="779" />
+		<part name="store_mask_10" x="201" y="779" />
+		<part name="store_mask_11" x="268" y="779" />
+		
+		<part name="game_pause_01_locked" x="0" y="969" />
+		<part name="game_pause_01" x="66" y="969" />
+		<part name="game_pause_01_pressed" x="132" y="969" />
+	</texture>
+	
+	<!-- food -->
+	<texture width="1024" height="1024" name="food" >
+		<!-- bread -->
+		<part name="food_3_bagel_b" x="0" y="0" />
+		<part name="food_3_bagel_m" x="0" y="90" />
+		<part name="food_3_croissant_b" x="90" y="0" />
+		<part name="food_3_croissant_m" x="69" y="90" />
+		<part name="food_2_waffle_circular_b" x="0" y="159" />
+		<part name="food_2_waffle_circular_m" x="90" y="159" />
+		<part name="food_2_waffle_square_b" x="159" y="159" />
+		<part name="food_2_waffle_square_m" x="249" y="159" />
+		
+		<part name="food_1_toast_white_double_b" x="0" y="249" />
+		<part name="food_1_toast_white_double_m" x="90" y="249" />
+		<part name="food_1_toast_white_b" x="0" y="429" />
+		<part name="food_1_toast_white_m" x="90" y="429" />
+		<part name="food_1_toast_white_up_b" x="159" y="429" />
+		<part name="food_1_toast_white_up_m" x="249" y="429" />
+		
+		<part name="food_1_toast_black_double_b" x="159" y="249" />
+		<part name="food_1_toast_black_double_m" x="249" y="249" />
+		<part name="food_1_toast_black_b" x="0" y="519" />
+		<part name="food_1_toast_black_m" x="90" y="519" />
+		<part name="food_1_toast_black_up_b" x="159" y="519" />
+		<part name="food_1_toast_black_up_m" x="249" y="519" />
+		
+		<part name="food_1_toast_yellow_double_b" x="318" y="249" />
+		<part name="food_1_toast_yellow_double_m" x="408" y="249" />
+		<part name="food_1_toast_yellow_b" x="0" y="609" />
+		<part name="food_1_toast_yellow_m" x="90" y="609" />
+		<part name="food_1_toast_yellow_up_b" x="159" y="609" />
+		<part name="food_1_toast_yellow_up_m" x="249" y="609" />
+		
+		<!-- sauce -->
+		<part name="food_6_butter_b" x="180" y="0" />
+		<part name="food_6_butter_m" x="138" y="90" />
+		<part name="food_6_honey_b" x="270" y="0" />
+		<part name="food_6_honey_m" x="207" y="90" />
+		<part name="food_6_tomato_b" x="360" y="0" />
+		<part name="food_6_tomato_m" x="276" y="90" />
+		
+		<!-- beverage -->
+		<part name="food_7_milk_b" x="450" y="0" />
+		<part name="food_7_milk_m" x="345" y="90" />
+		<part name="food_7_coffee_b" x="503" y="0" />
+		<part name="food_7_coffee_m" x="384" y="90" />
+		
+		<!-- add on A -->
+		<part name="food_5_cheese_b" x="0" y="699" />
+		<part name="food_5_cheese_m" x="90" y="699" />
+		<part name="food_5_lettuce_b" x="159" y="699" />
+		<part name="food_5_lettuce_m" x="249" y="699" />
+		
+		<!-- add on B -->
+		<part name="food_4_egg_b" x="0" y="339" />
+		<part name="food_4_egg_m" x="90" y="339" />
+		<part name="food_4_ham_b" x="159" y="339" />
+		<part name="food_4_ham_m" x="249" y="339" />
+		<part name="food_4_hotdog_b" x="318" y="339" />
+		<part name="food_4_hotdog_m" x="408" y="339" />
+		
+		<!-- candy -->
+		<part name="game_table_candy_candy_1" x="345" y="135" />
+		<part name="game_table_candy_candy_2" x="368" y="135" />
+		<part name="game_table_candy_candy_3" x="391" y="135" />
+		
+		<!-- food machine: frying pan -->
+		<part name="game_table_pan_lv1_normal" x="556" y="0" />
+		<part name="game_table_pan_lv1_work_1" x="687" y="0" />
+		<part name="game_table_pan_lv1_work_2" x="818" y="0" />
+		
+		<part name="game_table_pan_lv2_normal" x="556" y="128" />
+		<part name="game_table_pan_lv2_work_1" x="687" y="128" />
+		<part name="game_table_pan_lv2_work_2" x="818" y="128" />
+		
+		<part name="game_table_pan_lv3_normal" x="556" y="256" />
+		<part name="game_table_pan_lv3_work_1" x="687" y="256" />
+		<part name="game_table_pan_lv3_work_2" x="818" y="256" />
+		
+		<part name="game_table_pan_smoke_work_1" x="841" y="384" />
+		<part name="game_table_pan_smoke_work_2" x="841" y="485" />
+		
+		<!-- candy machine -->
+		<part name="game_table_candy_lv1_normal" x="556" y="384" />
+		<part name="game_table_candy_lv1_work_1" x="651" y="384" />
+		<part name="game_table_candy_lv1_work_2" x="746" y="384" />
+		
+		<part name="game_table_candy_lv2_normal" x="556" y="552" />
+		<part name="game_table_candy_lv2_work_1" x="651" y="552" />
+		<part name="game_table_candy_lv2_work_2" x="746" y="552" />
+		
+		<part name="game_table_candy_lv3_normal" x="556" y="720" />
+		<part name="game_table_candy_lv3_work_1" x="651" y="720" />
+		<part name="game_table_candy_lv3_work_2" x="746" y="720" />
+		
+		<!-- order bubble -->
+		<part name="game_order_bg" x="0" y="789" />
+		<part name="game_order_think_1" x="101" y="789" />
+		<part name="game_order_think_2" x="0" y="901" />
+		<part name="game_order_think_3" x="101" y="901" />
+	</texture>
+</resource>

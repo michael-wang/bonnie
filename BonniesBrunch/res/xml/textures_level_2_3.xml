@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+
+    <texture name="whats_new-1" width="1024" height="1024" >
+        <part name="card_bg" x="0" y="0" />			<!-- 720 X 480 -->
+        <part name="card_bg_new" x="722" y="0" />	<!-- 135 X 135 -->
+	    <part name="tutorial_frame_ok_pressed" x="722" y="136" />	<!-- 74 X 74 -->
+	    <part name="tutorial_frame_ok" x="796" y="136" />
+        
+        <part name="card_2_3_f_cheese" x="0" y="482" /> <!-- 495 X 351 -->
+        <part name="card_2_3_g_12" x="496" y="482" /> <!-- 495 X 351 -->
+    </texture>
+
+</resource>

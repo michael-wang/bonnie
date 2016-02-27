@@ -1,0 +1,5783 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+	<Level major="1" minor="1" has_tutorial="true" temp_texture="textures_level_1_1" >
+		<Score min="400" med="600" high="800" max="930" />
+		<Time total="20">
+			<Period start="0" min="5" max="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_1_1_f_bagel" />
+			<Item partition="card_1_1_g_1" />
+			<Item partition="card_1_1_g_4" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="2" has_tutorial="true" temp_texture="textures_level_1_2" >
+		<Score min="880" med="1320" high="1760" max="2200" />
+		<Time total="30">
+			<Period start="0" min="5" max="6" />
+			<Period start="15" min="3" max="4" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_1_2_f_croissant" />
+			<Item partition="card_1_2_f_honey" />
+			<Item partition="card_1_2_g_2" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Honey" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="3" temp_texture="textures_level_1_3" >
+		<Score min="960" med="1440" high="1920" max="2400" />
+		<Time total="40">
+			<Period start="0" min="5" max="6" />
+			<Period start="15" min="3" max="4" />
+			<Period start="30" min="5" max="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_1_3_f_cream" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="4" temp_texture="textures_level_1_4" >
+		<Score min="1200" med="1800" high="2400" max="3000" />
+		<Time total="40">
+			<Period start="0" min="5" max="6" />
+			<Period start="15" min="2" max="3" />
+			<Period start="30" min="4" max="5" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_1_4_g_5" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="5" special_level="true" has_tutorial="true" temp_texture="textures_level_1_5" >
+		<Score min="4400" med="6600" high="8800" max="11000" />
+		<Time total="60">
+			<Period start="0" min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="6" temp_texture="textures_level_1_6" >
+		<Score min="2040" med="3060" high="4080" max="5100" />
+		<Time total="60">
+			<Period start="0" min="5" max="6" />
+			<Period start="20" min="2" max="4" />
+			<Period start="40" min="4" max="5" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_1_6_f_coffee" />
+			<Item partition="card_1_6_f_milk" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="7" >
+		<Score min="3200" med="4800" high="6400" max="8000" />
+		<Time total="90">
+			<Period start="0" min="5" max="6" />
+			<Period start="25" min="2" max="4" />
+			<Period start="70" min="4" max="5" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="8" has_tutorial="true" temp_texture="textures_level_1_8" >
+		<Score min="4400" med="6600" high="8800" max="11000" />
+		<Time total="105" >
+			<Period start="0"  min="5" max="6" />
+			<Period start="25" min="4" max="5" />
+			<Period start="50" min="2" max="3" />
+			<Period start="90" min="5" max="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_1_8_g_11" />
+			<Item partition="card_1_8_m_waffle_circular" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Croissant />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="4" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="9" >
+		<Score min="6080" med="9120" high="12160" max="15200" />
+		<Time total="120" >
+			<Period start="0"  min="5" max="6" />
+			<Period start="20" min="4" max="5" />
+			<Period start="50" min="2" max="3" />
+			<Period start="90" min="5" max="6" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Croissant />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="1" minor="10" special_level="true" >
+		<Score min="4800" med="7200" high="9600" max="12000" />
+		<Time total="60" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Croissant />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<!-- 2-1 -->
+	<Level major="2" minor="1" has_tutorial="true" temp_texture="textures_level_2_1" >
+		<Score min="5000" med="7000" high="8500" max="10000" />
+		<Time total="100" >
+			<Period start="0"  min="7" max="8" />
+			<Period start="30" min="4" max="5" />
+			<Period start="60" min="2" max="3" />
+			<Period start="90" min="5" max="8" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_2_1_f_lettuce" />
+			<Item partition="card_2_1_m_toast_white" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<LevelItem type="ToastMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<MuffinCircle />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastWhite />
+				<Lettuce />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="3" />
+				<Time value="5" />
+				<Time value="15" />
+				<Time value="18" />
+				<Time value="20" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="2" >
+		<Score min="7500" med="10500" high="12750" max="15000" />
+		<Time total="120" >
+			<Period start="0"  min="5" max="6" />
+			<Period start="30" min="3" max="4" />
+			<Period start="70" min="2" max="3" />
+			<Period start="100" min="6" max="8" />
+			<RushHour clock_index="7" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<LevelItem type="ToastMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Croissant />
+				<MuffinCircle />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="75" />
+				<Time value="78" />
+				<Time value="88" />
+				<Time value="90" />
+				<Time value="95" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="3" temp_texture="textures_level_2_3" >
+		<Score min="7000" med="9800" high="11900" max="14000" />
+		<Time total="120" >
+			<Period start="0"  min="7" max="8" />
+			<Period start="30" min="3" max="4" />
+			<Period start="60" min="2" max="3" />
+			<Period start="90" min="5" max="8" />
+			<RushHour clock_index="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_2_3_f_cheese" />
+			<Item partition="card_2_3_g_12" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<LevelItem type="ToastMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="3" />
+				<Time value="8" />
+				<Time value="15" />
+				<Time value="18" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<MuffinCircle />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="65" />
+				<Time value="68" />
+				<Time value="78" />
+				<Time value="80" />
+				<Time value="88" />
+				<Time value="90" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastWhite />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="4" has_tutorial="true" temp_texture="textures_level_2_4" >
+		<Score min="8750" med="11250" high="14875" max="17500" />
+		<Time total="135" >
+			<Period start="0"  min="7" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="60" min="7" max="8" />
+			<Period start="80" min="2" max="3" />
+			<Period start="120" min="7" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="7" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_2_4_m_candy_lv1" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<LevelItem type="ToastMachine" level="1" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="35" />
+				<Time value="38" />
+				<Time value="40" />
+				<Time value="50" />
+				<Time value="53" />
+				<Time value="55" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<MuffinCircle />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastWhite />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="90" />
+				<Time value="93" />
+				<Time value="95" />
+				<Time value="113" />
+				<Time value="115" />
+				<Time value="118" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="5" special_level="true" >
+		<Score min="7000" med="9800" high="11900" max="14000" />
+		<Time total="70" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="1" />
+			<LevelItem type="ToastMachine" level="1" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastWhite />
+				<Lettuce />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="6" temp_texture="textures_level_2_6" >
+		<Score min="9000" med="12600" high="15300" max="18000" />
+		<Time total="135" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="60" min="5" max="8" />
+			<Period start="80" min="2" max="3" />
+			<Period start="120" min="4" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="7" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_2_6_m_waffle_square" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="1" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastWhite />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="23" />
+				<Time value="28" />
+				<Time value="35" />
+				<Time value="38" />
+				<Time value="52" />
+				<Time value="55" />
+				<Time value="58" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<ToastWhite />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="90" />
+				<Time value="93" />
+				<Time value="95" />
+				<Time value="113" />
+				<Time value="115" />
+				<Time value="118" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastWhite />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="7" temp_texture="textures_level_2_7" >
+		<Score min="8900" med="12460" high="15130" max="17800" />
+		<Time total="150" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="30" min="3" max="6" />
+			<Period start="80" min="2" max="3" />
+			<Period start="130" min="6" max="8" />
+			<RushHour clock_index="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_2_7_m_toast_black" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<ToastWhite />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastBlack />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="90" />
+				<Time value="93" />
+				<Time value="95" />
+				<Time value="113" />
+				<Time value="115" />
+				<Time value="118" />
+				<Time value="120" />
+				<Time value="125" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="8" temp_texture="textures_level_2_8" >
+		<Score min="10000" med="14000" high="17000" max="20000" />
+		<Time total="150" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="30" min="5" max="8" />
+			<Period start="80" min="2" max="3" />
+			<Period start="130" min="6" max="8" />
+			<RushHour clock_index="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_2_8_f_ketchup" />
+			<Item partition="card_2_8_g_8" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<ToastWhite />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="85" />
+				<Time value="88" />
+				<Time value="90" />
+				<Time value="113" />
+				<Time value="115" />
+				<Time value="118" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastBlack />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="33" />
+				<Time value="35" />
+				<Time value="63" />
+				<Time value="65" />
+				<Time value="68" />
+				<Time value="103" />
+				<Time value="105" />
+				<Time value="108" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="9" >
+		<Score min="10000" med="14000" high="17000" max="20000" />
+		<Time total="150" >
+			<Period start="0"  min="7" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="60" min="7" max="8" />
+			<Period start="80" min="2" max="3" />
+			<Period start="120" min="4" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="6" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<ToastWhite />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastBlack />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="33" />
+				<Time value="35" />
+				<Time value="53" />
+				<Time value="55" />
+				<Time value="103" />
+				<Time value="105" />
+				<Time value="108" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="23" />
+				<Time value="25" />
+				<Time value="93" />
+				<Time value="95" />
+				<Time value="98" />
+				<Time value="113" />
+				<Time value="115" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="2" minor="10" special_level="true" >
+		<Score min="6500" med="9100" high="11050" max="13000" />
+		<Time total="70" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Tomato />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Cheese />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="1" has_tutorial="true" temp_texture="textures_level_3_1" >
+		<Score min="9000" med="12600" high="15300" max="18000" />
+		<Time total="150" >
+			<Period start="0"  min="6" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="60" min="5" max="6" />
+			<Period start="90" min="2" max="3" />
+			<Period start="130" min="6" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="7" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_3_1_m_egg" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="FryingPan" level="1" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite />
+				<Egg must_order="true" />
+				<Tomato />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="32" />
+				<Time value="38" />
+				<Time value="40" />
+				<Time value="100" />
+				<Time value="105" />
+				<Time value="110" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastWhite />
+				<Egg must_order="true" />
+				<Tomato />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="28" />
+				<Time value="30" />
+				<Time value="36" />
+				<Time value="95" />
+				<Time value="113" />
+				<Time value="118" />
+				<Time value="121" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<ToastWhite />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Cheese />
+				<Tomato />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+				<Tomato />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="2" temp_texture="textures_level_3_2" >
+		<Score min="10000" med="14000" high="17000" max="20000" />
+		<Time total="150" >
+			<Period start="0"  min="6" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="60" min="5" max="8" />
+			<Period start="90" min="2" max="3" />
+			<Period start="130" min="6" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="7" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_3_2_g_7" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="FryingPan" level="1" />
+			<LevelItem type="CandyMachine" level="1" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<ToastWhite />
+				<Egg />
+				<Honey />
+				<Tomato />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Egg />
+				<Lettuce />
+				<Tomato />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<ToastWhite />
+				<Egg />
+				<Honey />
+				<Tomato />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastBlack />
+				<Egg />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="28" />
+				<Time value="30" />
+				<Time value="36" />
+				<Time value="95" />
+				<Time value="98" />
+				<Time value="113" />
+				<Time value="118" />
+				<Time value="121" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<ToastWhite />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="10" />
+				<Time value="33" />
+				<Time value="40" />
+				<Time value="48" />
+				<Time value="55" />
+				<Time value="65" />
+				<Time value="80" />
+				<Time value="90" />
+				<Time value="98" />
+				<Time value="108" />
+				<Time value="128" />
+				<Time value="145" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="3" temp_texture="textures_level_3_3" >
+		<Score min="11000" med="15400" high="18700" max="22000" />
+		<Time total="165" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="60" min="5" max="8" />
+			<Period start="90" min="2" max="3" />
+			<Period start="120" min="7" max="8" />
+			<Period start="140" min="3" max="4" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="7" />
+			<RushHour clock_index="10" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_3_3_m_candy_lv2" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="2" />
+			<LevelItem type="FryingPan" level="1" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="4" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Egg />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="32" />
+				<Time value="38" />
+				<Time value="40" />
+				<Time value="100" />
+				<Time value="105" />
+				<Time value="110" />
+				<Time value="141" />
+				<Time value="150" />
+				<Time value="156" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastBlack />
+				<Egg />
+				<Cheese />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="4" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Egg />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="28" />
+				<Time value="30" />
+				<Time value="36" />
+				<Time value="95" />
+				<Time value="98" />
+				<Time value="113" />
+				<Time value="118" />
+				<Time value="155" />
+				<Time value="158" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<ToastWhite />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="33" />
+				<Time value="48" />
+				<Time value="55" />
+				<Time value="90" />
+				<Time value="98" />
+				<Time value="118" />
+				<Time value="148" />
+				<Time value="155" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="4" temp_texture="textures_level_3_4" >
+		<Score min="11000" med="15400" high="18700" max="22000" />
+		<Time total="165" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="4" max="6" />
+			<Period start="70" min="1" max="3" />
+			<Period start="100" min="7" max="8" />
+			<Period start="120" min="2" max="3" />
+			<Period start="150" min="6" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="9" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_3_4_m_toast_yellow" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="1" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Lettuce must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Lettuce must_order="true" />
+				<Butter must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Cheese must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="120" />
+				<Time value="123" />
+				<Time value="125" />
+				<Time value="143" />
+				<Time value="145" />
+				<Time value="148" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite />
+				<Lettuce must_order="true" />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="33" />
+				<Time value="48" />
+				<Time value="55" />
+				<Time value="90" />
+				<Time value="98" />
+				<Time value="118" />
+				<Time value="148" />
+				<Time value="155" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="5" special_level="true" >
+		<Score min="6000" med="8400" high="10200" max="12000" />
+		<Time total="80" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="1" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<ToastYellow />
+				<Cheese />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<Tomato />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<ToastYellow />
+				<Lettuce />
+				<Tomato />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="6" temp_texture="textures_level_3_6" >
+		<Score min="10000" med="14000" high="17000" max="20000" />
+		<Time total="170" >
+			<Period start="0"  min="4" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="4" max="6" />
+			<Period start="70" min="2" max="3" />
+			<Period start="100" min="6" max="8" />
+			<Period start="120" min="2" max="3" />
+			<Period start="150" min="5" max="8" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="9" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_3_6_m_ham" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="2" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Ham must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Egg must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Ham must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Egg must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Ham must_order="true" />
+				<Butter must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Egg must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Ham must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham must_order="true" />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="33" />
+				<Time value="48" />
+				<Time value="55" />
+				<Time value="90" />
+				<Time value="98" />
+				<Time value="118" />
+				<Time value="148" />
+				<Time value="155" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="7" temp_texture="textures_level_3_7" >
+		<Score min="16500" med="23100" high="28050" max="33000" />
+		<Time total="170" >
+			<Period start="0"  min="4" max="6" />
+			<Period start="30" min="2" max="3" />
+			<Period start="60" min="4" max="6" />
+			<Period start="80" min="1" max="3" />
+			<Period start="110" min="3" max="4" />
+			<Period start="130" min="2" max="3" />
+			<Period start="150" min="4" max="6" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="6" />
+			<RushHour clock_index="9" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_3_7_g_6" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" must_order="true" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="2" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Bagel />
+				<MuffinSquare />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<Croissant />
+				<MuffinCircle />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Butter />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="33" />
+				<Time value="55" />
+				<Time value="90" />
+				<Time value="118" />
+				<Time value="148" />
+				<Time value="155" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Ham must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="15" />
+				<Time value="35" />
+				<Time value="45" />
+				<Time value="85" />
+				<Time value="100" />
+				<Time value="110" />
+				<Time value="120" />
+				<Time value="130" />
+				<Time value="145" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="8" >
+		<Score min="12500" med="17500" high="21250" max="25000" />
+		<Time total="180" >
+			<Period start="0"  min="4" max="6" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="4" max="6" />
+			<Period start="70" min="2" max="3" />
+			<Period start="100" min="6" max="8" />
+			<Period start="120" min="2" max="3" />
+			<Period start="150" min="6" max="8" />
+			<Period start="165" min="3" max="5" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="8" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="2" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<ToastYellow />
+				<Honey />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastBlack />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Egg />
+				<Cheese />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="26" />
+				<Time value="35" />
+				<Time value="38" />
+				<Time value="40" />
+				<Time value="84" />
+				<Time value="90" />
+				<Time value="93" />
+				<Time value="95" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastWhite />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<ToastBlack />
+				<Egg />
+				<Cheese />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastWhite />
+				<ToastBlack />
+				<Egg />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="120" />
+				<Time value="123" />
+				<Time value="125" />
+				<Time value="143" />
+				<Time value="145" />
+				<Time value="148" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<ToastWhite />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="33" />
+				<Time value="55" />
+				<Time value="90" />
+				<Time value="118" />
+				<Time value="148" />
+				<Time value="155" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Ham must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="15" />
+				<Time value="35" />
+				<Time value="45" />
+				<Time value="85" />
+				<Time value="100" />
+				<Time value="110" />
+				<Time value="120" />
+				<Time value="130" />
+				<Time value="145" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="9" >
+		<Score min="14000" med="19600" high="23800" max="28000" />
+		<Time total="180" >
+			<Period start="0"  min="4" max="6" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="4" max="6" />
+			<Period start="70" min="1" max="3" />
+			<Period start="100" min="6" max="8" />
+			<Period start="120" min="1" max="3" />
+			<Period start="150" min="6" max="8" />
+			<Period start="165" min="3" max="5" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="8" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="2" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Butter />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<Croissant />
+				<MuffinCircle />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="16" />
+				<Time value="34" />
+				<Time value="44" />
+				<Time value="68" />
+				<Time value="84" />
+				<Time value="99" />
+				<Time value="144" />
+				<Time value="150" />
+				<Time value="162" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="12" />
+				<Time value="37" />
+				<Time value="43" />
+				<Time value="46" />
+				<Time value="87" />
+				<Time value="102" />
+				<Time value="112" />
+				<Time value="147" />
+				<Time value="159" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="33" />
+				<Time value="55" />
+				<Time value="90" />
+				<Time value="118" />
+				<Time value="148" />
+				<Time value="155" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Ham must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="35" />
+				<Time value="85" />
+				<Time value="120" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="3" minor="10" special_level="true" >
+		<Score min="10000" med="14000" high="17000" max="20000" />
+		<Time total="80" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="2" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Butter />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinSquare />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Cheese />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<Croissant />
+				<Tomato />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Honey />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow />
+				<Cheese />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="1" temp_texture="textures_level_4_1" >
+		<Score min="13000" med="18200" high="22100" max="26000" />
+		<Time total="180" >
+			<Period start="0"  min="4" max="6" />
+			<Period start="20" min="3" max="5" />
+			<Period start="50" min="2" max="3" />
+			<Period start="90" min="4" max="5" />
+			<Period start="120" min="1" max="3" />
+			<Period start="150" min="5" max="8" />
+			<Period start="165" min="3" max="5" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="8" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_4_1_m_hotdog" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="2" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Ham />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Cheese />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Hotdog />
+				<Lettuce />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite />
+				<Egg />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="15" />
+				<Time value="35" />
+				<Time value="45" />
+				<Time value="85" />
+				<Time value="100" />
+				<Time value="110" />
+				<Time value="120" />
+				<Time value="130" />
+				<Time value="145" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="2" temp_texture="textures_level_4_2" >
+		<Score min="12000" med="16800" high="20400" max="24000" />
+		<Time total="180" >
+			<Period start="0"  min="4" max="6" />
+			<Period start="20" min="3" max="5" />
+			<Period start="50" min="2" max="3" />
+			<Period start="90" min="4" max="5" />
+			<Period start="120" min="1" max="3" />
+			<Period start="150" min="5" max="8" />
+			<Period start="165" min="3" max="5" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="6" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_4_2_m_candy_lv3" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Ham must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Egg must_order="true" />
+				<Lettuce must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Hotdog must_order="true" />
+				<Cheese must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey  must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="3" >
+		<Score min="16500" med="23100" high="28050" max="33000" />
+		<Time total="195" >
+			<Period start="0"  min="3" max="5" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="5" max="8" />
+			<Period start="90" min="1" max="3" />
+			<Period start="120" min="3" max="5" />
+			<Period start="150" min="5" max="8" />
+			<Period start="165" min="2" max="3" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="6" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Hotdog />
+				<Cheese />
+				<Butter />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Cheese />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Milk  must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="4" temp_texture="textures_level_4_4" >
+		<Score min="16500" med="23100" high="28050" max="33000" />
+		<Time total="195" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="20" min="2" max="4" />
+			<Period start="50" min="5" max="8" />
+			<Period start="70" min="2" max="3" />
+			<Period start="100" min="5" max="8" />
+			<Period start="120" min="2" max="3" />
+			<Period start="150" min="5" max="8" />
+			<Period start="170" min="2" max="4" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="4" />
+			<RushHour clock_index="7" />
+			<RushHour clock_index="10" />
+		</Time>
+		<WhatsNew >
+			<Item partition="card_4_4_g_9" />
+		</WhatsNew>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Cheese />
+				<Butter />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Cheese />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Honey />
+				<Coffee  must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="15" />
+				<Time value="35" />
+				<Time value="45" />
+				<Time value="85" />
+				<Time value="100" />
+				<Time value="110" />
+				<Time value="120" />
+				<Time value="130" />
+				<Time value="145" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="5" special_level="true" >
+		<Score min="8500" med="11900" high="14450" max="17000" />
+		<Time total="90" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Hotdog must_order="true" />
+				<Cheese must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Coffee  must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Egg must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="6" >
+		<Score min="14000" med="19600" high="23800" max="28000" />
+		<Time total="210" >
+			<Period start="0"  min="5" max="8" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="5" max="8" />
+			<Period start="70" min="1" max="3" />
+			<Period start="100" min="5" max="8" />
+			<Period start="120" min="1" max="3" />
+			<Period start="150" min="5" max="8" />
+			<Period start="170" min="2" max="3" />
+			<Period start="200" min="5" max="8" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="4" />
+			<RushHour clock_index="7" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Ham />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="7" >
+		<Score min="17500" med="24500" high="29750" max="35000" />
+		<Time total="210" >
+			<Period start="0"  min="3" max="5" />
+			<Period start="30" min="6" max="8" />
+			<Period start="50" min="2" max="3" />
+			<Period start="80" min="5" max="8" />
+			<Period start="100" min="1" max="3" />
+			<Period start="130" min="5" max="8" />
+			<Period start="145" min="4" max="5" />
+			<Period start="170" min="1" max="3" />
+			<Period start="200" min="4" max="5" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="6" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Ham />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="8" >
+		<Score min="15000" med="21000" high="25500" max="30000" />
+		<Time total="225" >
+			<Period start="0"  min="3" max="5" />
+			<Period start="30" min="6" max="8" />
+			<Period start="50" min="2" max="3" />
+			<Period start="80" min="5" max="8" />
+			<Period start="100" min="1" max="3" />
+			<Period start="130" min="5" max="8" />
+			<Period start="145" min="4" max="5" />
+			<Period start="170" min="1" max="3" />
+			<Period start="200" min="4" max="5" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="9" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Ham />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="9" >
+		<Score min="17500" med="24500" high="29750" max="35000" />
+		<Time total="240" >
+			<Period start="0"  min="4" max="5" />
+			<Period start="20" min="2" max="3" />
+			<Period start="50" min="4" max="5" />
+			<Period start="70" min="1" max="3" />
+			<Period start="100" min="6" max="8" />
+			<Period start="120" min="1" max="3" />
+			<Period start="150" min="3" max="5" />
+			<Period start="170" min="6" max="8" />
+			<Period start="190" min="1" max="3" />
+			<Period start="220" min="4" max="5" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="4" />
+			<RushHour clock_index="6" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Ham />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="4" minor="10" special_level="true" >
+		<Score min="7500" med="10500" high="12750" max="15000" />
+		<Time total="90" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Hotdog must_order="true" />
+				<Cheese must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Ham must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Egg must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="1" >
+		<Score min="16000" med="22400" high="27200" max="32000" />
+		<Time total="240" >
+			<Period start="0"  min="4" max="5" />
+			<Period start="20"  min="2" max="3" />
+			<Period start="50"  min="4" max="5" />
+			<Period start="70"  min="2" max="3" />
+			<Period start="100"  min="6" max="8" />
+			<Period start="120"  min="2" max="3" />
+			<Period start="150"  min="3" max="5" />
+			<Period start="170"  min="6" max="8" />
+			<Period start="190"  min="2" max="3" />
+			<Period start="220"  min="4" max="5" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="4" />
+			<RushHour clock_index="6" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Cheese must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="60" />
+				<Time value="110" />
+				<Time value="160" />
+				<Time value="165" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="60" />
+				<Time value="110" />
+				<Time value="160" />
+				<Time value="165" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Cheese />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="60" />
+				<Time value="110" />
+				<Time value="160" />
+				<Time value="165" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="2" >
+		<Score min="16000" med="22400" high="27200" max="32000" />
+		<Time total="264" >
+			<Period start="0"  min="3" max="5" />
+			<Period start="30"  min="4" max="6" />
+			<Period start="60"  min="2" max="3" />
+			<Period start="90"  min="5" max="8" />
+			<Period start="110"  min="1" max="3" />
+			<Period start="140"  min="5" max="8" />
+			<Period start="150"  min="4" max="5" />
+			<Period start="170"  min="2" max="3" />
+			<Period start="200"  min="4" max="5" />
+			<Period start="220"  min="2" max="4" />
+			<Period start="240"  min="4" max="5" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="8" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Cheese />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="60" />
+				<Time value="110" />
+				<Time value="160" />
+				<Time value="165" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="30" />
+				<Time value="60" />
+				<Time value="110" />
+				<Time value="160" />
+				<Time value="165" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="3" >
+		<Score min="18000" med="25200" high="30600" max="36000" />
+		<Time total="264" >
+			<Period start="0"  min="3" max="5" />
+			<Period start="30"  min="4" max="6" />
+			<Period start="60"  min="2" max="3" />
+			<Period start="90"  min="5" max="8" />
+			<Period start="110"  min="1" max="3" />
+			<Period start="140"  min="5" max="8" />
+			<Period start="150"  min="4" max="5" />
+			<Period start="170"  min="1" max="3" />
+			<Period start="200"  min="4" max="5" />
+			<Period start="220"  min="2" max="4" />
+			<Period start="240"  min="4" max="5" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="8" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Honey must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Butter />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle must_order="true" />
+				<Honey must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="4" >
+		<Score min="21000" med="29400" high="35700" max="42000" />
+		<Time total="300" >
+			<Period start="0"  min="4" max="5" />
+			<Period start="25"  min="2" max="3" />
+			<Period start="50"  min="4" max="5" />
+			<Period start="75"  min="2" max="3" />
+			<Period start="100"  min="6" max="8" />
+			<Period start="125"  min="4" max="5" />
+			<Period start="150"  min="2" max="3" />
+			<Period start="175"  min="6" max="8" />
+			<Period start="200"  min="1" max="2" />
+			<Period start="225"  min="4" max="5" />
+			<Period start="275"  min="5" max="6" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="6" />
+			<RushHour clock_index="8" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Butter />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="5" special_level="true" >
+		<Score min="6500" med="9100" high="11050" max="13000" />
+		<Time total="90" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Hotdog />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="6" >
+		<Score min="21000" med="29400" high="35700" max="42000" />
+		<Time total="300" >
+			<Period start="0"  min="4" max="5" />
+			<Period start="25"  min="2" max="3" />
+			<Period start="50"  min="4" max="5" />
+			<Period start="75"  min="1" max="3" />
+			<Period start="100"  min="6" max="8" />
+			<Period start="125"  min="2" max="3" />
+			<Period start="150"  min="3" max="5" />
+			<Period start="175"  min="6" max="8" />
+			<Period start="200"  min="1" max="3" />
+			<Period start="225"  min="4" max="5" />
+			<Period start="250"  min="2" max="3" />
+			<Period start="275"  min="3" max="5" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="8" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Honey />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Cheese must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="7" >
+		<Score min="21000" med="29400" high="35700" max="42000" />
+		<Time total="300" >
+			<Period start="0"  min="4" max="5" />
+			<Period start="25"  min="2" max="3" />
+			<Period start="50"  min="4" max="5" />
+			<Period start="75"  min="1" max="3" />
+			<Period start="100"  min="6" max="8" />
+			<Period start="125"  min="2" max="3" />
+			<Period start="150"  min="3" max="5" />
+			<Period start="175"  min="6" max="8" />
+			<Period start="200"  min="1" max="3" />
+			<Period start="225"  min="4" max="5" />
+			<Period start="250"  min="2" max="3" />
+			<Period start="275"  min="3" max="5" />
+			<RushHour clock_index="1" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="5" />
+			<RushHour clock_index="8" />
+			<RushHour clock_index="10" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="8" >
+		<Score min="28000" med="39200" high="47600" max="56000" />
+		<Time total="360" >
+			<Period start="0"  min="6" max="8" />
+			<Period start="30"  min="3" max="4" />
+			<Period start="60"  min="1" max="3" />
+			<Period start="90"  min="4" max="6" />
+			<Period start="120"  min="2" max="4" />
+			<Period start="150"  min="4" max="6" />
+			<Period start="180"  min="3" max="4" />
+			<Period start="210"  min="1" max="3" />
+			<Period start="240"  min="3" max="4" />
+			<Period start="270"  min="4" max="6" />
+			<Period start="300"  min="1" max="3" />
+			<Period start="330"  min="2" max="4" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="7" />
+			<RushHour clock_index="10" />
+			<RushHour clock_index="11" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="2" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="9" >
+		<Score min="21000" med="29400" high="35700" max="42000" />
+		<Time total="360" >
+			<Period start="0"  min="6" max="8" />
+			<Period start="30"  min="3" max="4" />
+			<Period start="60"  min="1" max="3" />
+			<Period start="90"  min="4" max="6" />
+			<Period start="120"  min="2" max="4" />
+			<Period start="150"  min="4" max="6" />
+			<Period start="180"  min="3" max="4" />
+			<Period start="210"  min="1" max="3" />
+			<Period start="240"  min="3" max="4" />
+			<Period start="270"  min="4" max="6" />
+			<Period start="300"  min="1" max="3" />
+			<Period start="330"  min="2" max="4" />
+			<RushHour clock_index="2" />
+			<RushHour clock_index="3" />
+			<RushHour clock_index="7" />
+			<RushHour clock_index="10" />
+			<RushHour clock_index="11" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Lettuce must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Lettuce must_order="true" />
+				<Butter must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Hotdog must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow must_order="true" />
+				<Hotdog must_order="true" />
+				<Lettuce must_order="true" />
+				<Tomato must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Hotdog must_order="true" />
+				<Tomato must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<Level major="5" minor="10" special_level="true" >
+		<Score min="9000" med="12600" high="15300" max="18000" />
+		<Time total="90" >
+			<Period start="0"  min="1" max="1" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel must_order="true" />
+				<Butter must_order="true" />
+				<Milk must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<Croissant must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<MuffinSquare must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastBlack must_order="true" />
+				<Hotdog must_order="true" />
+				<Coffee must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<ToastWhite must_order="true" />
+				<Lettuce must_order="true" />
+				<Honey must_order="true" />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+	
+	<!-- for debug -->
+	<Level major="0" minor="0" >
+		<Score min="40000" med="41000" high="42000" max="44000" />
+		<Time total="360" >
+			<Period start="0" min="3" max="3" />
+		</Time>
+		<Table >
+			<Item type="Bagel" />
+			<Item type="Croissant" />
+			<Item type="Butter" />
+			<Item type="Honey" />
+			<Item type="Tomato" />
+			<Item type="Lettuce" />
+			<Item type="Cheese" />
+			<Item type="Milk" />
+			<Item type="Coffee" />
+			<LevelItem type="MuffinMachine" level="2" />
+			<LevelItem type="ToastMachine" level="3" />
+			<LevelItem type="FryingPan" level="3" />
+			<LevelItem type="CandyMachine" level="3" />
+			<Item type="Plate" />
+			<Item type="Trashcan" />
+		</Table>
+		<Customer type="JoggingGirl" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="BalloonBoy" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastWhite />
+				<Cheese />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="WorkingMan" >
+			<OrderSpec >
+				<ToastBlack />
+				<Egg />
+				<Ham />
+				<Cheese />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="GirlWithDog" >
+			<OrderSpec >
+				<MuffinCircle />
+				<MuffinSquare />
+				<ToastYellow />
+				<Lettuce />
+				<Milk />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Granny" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperMan" >
+			<OrderSpec >
+				<ToastWhite />
+				<Ham />
+				<Hotdog />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Physicist" >
+			<OrderSpec >
+				<ToastBlack />
+				<Ham />
+				<Lettuce />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="SuperLady" >
+			<OrderSpec >
+				<Bagel />
+				<Croissant />
+				<MuffinCircle />
+				<ToastWhite />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="3" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="FoodCritic" >
+			<OrderSpec >
+				<ToastYellow />
+				<Hotdog />
+				<Lettuce />
+				<Tomato />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="random" >
+				<Weight value="1" />
+			</AppearanceConfig>
+		</Customer>
+		<Customer type="Tramp" >
+			<OrderSpec >
+				<Bagel />
+				<Honey />
+				<Coffee />
+			</OrderSpec>
+			<AppearanceConfig type="fixed" >
+				<Time value="15" />
+				<Time value="35" />
+				<Time value="45" />
+				<Time value="85" />
+				<Time value="100" />
+				<Time value="110" />
+				<Time value="120" />
+				<Time value="130" />
+				<Time value="145" />
+			</AppearanceConfig>
+		</Customer>
+	</Level>
+</resource>

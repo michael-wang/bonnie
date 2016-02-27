@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level level="1" sub_level="1" type="1" total_time="10" >
+	<TableConfiguration >
+		<Bagel />
+		<Croissant />
+		<Butter />
+		<Honey />
+		<Tomato />
+		<Lettuce />
+		<Cheese />
+		<MuffinLv2 />
+		<ToastLv3 />
+		<PanLv3 />
+		<CandyLv3 />
+		<Milk />
+		<Coffee />
+		<Trashcan />
+	</TableConfiguration>
+	
+	<Period start_from="0" min_customer_interval="5" max_customer_interval="6" />
+</Level>

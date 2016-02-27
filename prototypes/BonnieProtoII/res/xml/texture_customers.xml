@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+	<!-- customer: jogging girl -->
+	<texture width="1024" height="1024" name="customer-jogging-girl" >
+		<!-- normal -->
+		<part name="game_guest_01_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_01_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_01_w1_normal_3" x="408" y="0" />
+		
+		<!-- excited -->
+		<part name="game_guest_01_r1_excited_1" x="0" y="210" />
+		<part name="game_guest_01_r1_excited_2" x="204" y="210" />
+		<part name="game_guest_01_r1_excited_3" x="408" y="210" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_01_w2_unhappy_1" x="0" y="420" />
+		<part name="game_guest_01_w2_unhappy_2" x="204" y="420" />
+		<part name="game_guest_01_w2_unhappy_3" x="408" y="420" />
+		<part name="game_guest_01_w2_unhappy_4" x="612" y="420" />
+		<part name="game_guest_01_w2_unhappy_5" x="0" y="630" />
+		
+		<!-- angry -->
+		<part name="game_guest_01_w3_angry_1" x="204" y="630" />
+		<part name="game_guest_01_w3_angry_2" x="408" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_01_s1_sick_1" x="612" y="0" />
+		<part name="game_guest_01_s1_sick_2" x="816" y="0" />
+		<part name="game_guest_01_s1_sick_3" x="612" y="210" />
+	</texture>
+	
+	<!-- customer: working man -->
+	<texture width="1024" height="1024" name="working-man" >
+		<!-- normal -->
+		<part name="game_guest_02_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_02_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_02_w1_normal_3" x="408" y="0" />
+		
+		<!-- excited -->
+		<part name="game_guest_02_r1_excited_1" x="0" y="210" />
+		<part name="game_guest_02_r1_excited_2" x="204" y="210" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_02_w2_unhappy_1" x="612" y="0" />
+		<part name="game_guest_02_w2_unhappy_2" x="816" y="0" />
+		
+		<!-- angry -->
+		<part name="game_guest_02_w3_angry_1" x="408" y="210" />
+		<part name="game_guest_02_w3_angry_2" x="612" y="210" />
+		
+		<!-- sick -->
+		<part name="game_guest_02_s1_sick_1" x="0" y="420" />
+		<part name="game_guest_02_s1_sick_2" x="204" y="420" />
+	</texture>
+	
+	<!-- customer: balloon boy -->
+	<texture width="1024" height="1024" name="balloon boy" >
+		<!-- normal -->
+		<part name="game_guest_04_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_04_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_04_w1_normal_3" x="408" y="0" />
+		
+		<!-- excited -->
+		<part name="game_guest_04_r1_excited_1" x="0" y="210" />
+		<part name="game_guest_04_r1_excited_2" x="204" y="210" />
+		<part name="game_guest_04_r1_excited_3" x="408" y="210" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_04_w2_unhappy_1" x="0" y="420" />
+		<part name="game_guest_04_w2_unhappy_2" x="204" y="420" />
+		<part name="game_guest_04_w2_unhappy_3" x="612" y="420" />
+		
+		<!-- angry -->
+		<part name="game_guest_04_w3_angry_1" x="0" y="630" />
+		<part name="game_guest_04_w3_angry_2" x="204" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_04_s1_sick_1" x="612" y="0" />
+		<part name="game_guest_04_s1_sick_2" x="816" y="0" />
+		<part name="game_guest_04_s1_sick_2" x="612" y="210" />
+	</texture>
+	
+	<!-- customer: girl with dog -->
+	<texture width="1024" height="1024" name="girl-with-dog" >
+		<!-- normal -->
+		<part name="game_guest_05_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_05_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_05_w1_normal_3" x="408" y="0" />
+		
+		<!-- excited -->
+		<part name="game_guest_05_r1_excited_1" x="0" y="210" />
+		<part name="game_guest_05_r1_excited_2" x="204" y="210" />
+		<part name="game_guest_05_r1_excited_3" x="408" y="210" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_05_w2_unhappy_1" x="0" y="420" />
+		<part name="game_guest_05_w2_unhappy_2" x="204" y="420" />
+		<part name="game_guest_05_w2_unhappy_3" x="408" y="420" />
+		
+		<!-- angry -->
+		<part name="game_guest_05_w3_angry_1" x="0" y="630" />
+		<part name="game_guest_05_w3_angry_2" x="204" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_05_s1_sick_1" x="612" y="0" />
+		<part name="game_guest_05_s1_sick_2" x="816" y="0" />
+		<part name="game_guest_05_s1_sick_3" x="612" y="210" />
+	</texture>
+	
+	<!-- customer: granny -->
+	<texture width="1024" height="1024" name="granny" >
+		<!-- normal -->
+		<part name="game_guest_11_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_11_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_11_w1_normal_3" x="408" y="0" />
+		
+		<!-- excited -->
+		<part name="game_guest_11_r1_excited_1" x="0" y="210" />
+		<part name="game_guest_11_r1_excited_2" x="204" y="210" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_11_w2_unhappy_1" x="0" y="420" />
+		<part name="game_guest_11_w2_unhappy_2" x="204" y="420" />
+		
+		<!-- angry -->
+		<part name="game_guest_11_w3_angry_1" x="0" y="630" />
+		<part name="game_guest_11_w3_angry_2" x="204" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_11_s1_sick_1" x="612" y="0" />
+		<part name="game_guest_11_s1_sick_2" x="816" y="0" />
+	</texture>
+	
+	<!-- customer: superstar man -->
+	<texture width="1024" height="1024" name="superstar-man" >
+		<!-- normal -->
+		<part name="game_guest_12_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_12_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_12_w1_normal_3" x="408" y="0" />
+		<part name="game_guest_12_w1_normal_4" x="612" y="0" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_12_w2_unhappy_1" x="0" y="210" />
+		<part name="game_guest_12_w2_unhappy_2" x="204" y="210" />
+		<part name="game_guest_12_w2_unhappy_3" x="408" y="210" />
+		<part name="game_guest_12_w2_unhappy_4" x="612" y="210" />
+		
+		<!-- angry -->
+		<part name="game_guest_12_w3_angry_1" x="0" y="420" />
+		<part name="game_guest_12_w3_angry_2" x="204" y="420" />
+		
+		<!-- excited -->
+		<part name="game_guest_12_r1_excited_1" x="0" y="630" />
+		<part name="game_guest_12_r1_excited_2" x="204" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_12_s1_sick_1" x="816" y="0" />
+		<part name="game_guest_12_s1_sick_2" x="816" y="210" />
+		<part name="game_guest_12_s1_sick_3" x="408" y="420" />
+		<part name="game_guest_12_s1_sick_4" x="612" y="420" />
+	</texture>
+	
+	<!-- customer: physicist -->
+	<texture width="1024" height="1024" name="physicist" >
+		<!-- normal -->
+		<part name="game_guest_08_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_08_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_08_w1_normal_3" x="408" y="0" />
+		<part name="game_guest_08_w1_normal_4" x="612" y="0" />
+		<part name="game_guest_08_w1_normal_5" x="816" y="0" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_08_w2_unhappy_1" x="0" y="210" />
+		<part name="game_guest_08_w2_unhappy_2" x="204" y="210" />
+		
+		<!-- angry -->
+		<part name="game_guest_08_w3_angry_1" x="0" y="420" />
+		<part name="game_guest_08_w3_angry_2" x="204" y="420" />
+		
+		<!-- excited -->
+		<part name="game_guest_08_r1_excited_1" x="0" y="630" />
+		<part name="game_guest_08_r1_excited_2" x="204" y="630" />
+		<part name="game_guest_08_r1_excited_3" x="408" y="630" />
+		<part name="game_guest_08_r1_excited_4" x="612" y="630" />
+		
+		<!-- order bubble: equations -->
+		<part name="game_guest_08_order_think_1" x="822" y="210" />
+		<part name="game_guest_08_order_think_2" x="923" y="210" />
+		<part name="game_guest_08_order_think_3" x="822" y="322" />
+		
+		<!-- sick -->
+		<part name="game_guest_08_s1_sick_1" x="408" y="210" />
+		<part name="game_guest_08_s1_sick_2" x="612" y="210" />
+		<part name="game_guest_08_s1_sick_3" x="408" y="420" />
+	</texture>
+	
+	<!-- customer: superstar lady -->
+	<texture width="1024" height="1024" name="superstar-lady" >
+		<!-- normal -->
+		<part name="game_guest_07_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_07_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_07_w1_normal_3" x="408" y="0" />
+		<part name="game_guest_07_w1_normal_4" x="612" y="0" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_07_w2_unhappy_1" x="0" y="210" />
+		<part name="game_guest_07_w2_unhappy_2" x="204" y="210" />
+		
+		<!-- angry -->
+		<part name="game_guest_07_w3_angry_1" x="0" y="420" />
+		<part name="game_guest_07_w3_angry_2" x="204" y="420" />
+		
+		<!-- excited -->
+		<part name="game_guest_07_r1_excited_1" x="0" y="630" />
+		<part name="game_guest_07_r1_excited_2" x="204" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_07_s1_sick_1" x="816" y="0" />
+		<part name="game_guest_07_s1_sick_2" x="408" y="210" />
+		
+		<!-- customer excited effect -->
+		<part name="game_event_1_add_001" x="612" y="210" />
+		<part name="game_event_1_add_002" x="816" y="210" />
+		<part name="game_event_1_add_003" x="408" y="420" />
+		<part name="game_event_1_add_004" x="612" y="420" />
+		<part name="game_event_1_add_005" x="816" y="420" />
+		<part name="game_event_1_add_006" x="408" y="630" />
+		<part name="game_event_1_add_007" x="612" y="630" />
+		<part name="game_event_1_add_008" x="816" y="630" />
+	</texture>
+	
+	<!-- customer: food critic -->
+	<texture width="1024" height="1024" name="food-critic" >
+		<!-- normal -->
+		<part name="game_guest_06_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_06_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_06_w1_normal_3" x="408" y="0" />
+		<part name="game_guest_06_w1_normal_4" x="612" y="0" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_06_w2_unhappy_1" x="0" y="210" />
+		<part name="game_guest_06_w2_unhappy_2" x="204" y="210" />
+		<part name="game_guest_06_w2_unhappy_3" x="408" y="210" />
+		
+		<!-- angry -->
+		<part name="game_guest_06_w3_angry_1" x="0" y="420" />
+		<part name="game_guest_06_w3_angry_2" x="204" y="420" />
+		
+		<!-- excited -->
+		<part name="game_guest_06_r1_excited_1" x="0" y="630" />
+		<part name="game_guest_06_r1_excited_2" x="204" y="630" />
+		
+		<!-- sick -->
+		<part name="game_guest_06_s1_sick_1" x="816" y="0" />
+		<part name="game_guest_06_s1_sick_2" x="612" y="210" />
+		<part name="game_guest_06_s1_sick_3" x="816" y="210" />
+		
+		<!-- game event: customer astonished -->
+		<part  name="game_event_3_wake_001" x="408" y="420" />
+		<part  name="game_event_3_wake_002" x="612" y="420" />
+	</texture>
+	
+	<!-- customer: tramp -->
+	<texture width="1024" height="1024" name="tramp" >
+		<!-- normal -->
+		<part name="game_guest_09_w1_normal_1" x="0" y="0" />
+		<part name="game_guest_09_w1_normal_2" x="204" y="0" />
+		<part name="game_guest_09_w1_normal_3" x="408" y="0" />
+		<part name="game_guest_09_w1_normal_4" x="612" y="0" />
+		<part name="game_guest_09_w1_normal_5" x="816" y="0" />
+		<part name="game_guest_09_w1_normal_6" x="612" y="210" />
+		
+		<!-- unhappy -->
+		<part name="game_guest_09_w2_unhappy_1" x="0" y="210" />
+		<part name="game_guest_09_w2_unhappy_2" x="204" y="210" />
+		<part name="game_guest_09_w2_unhappy_3" x="408" y="210" />
+		
+		<!-- angry -->
+		<part name="game_guest_09_w3_angry_1" x="0" y="420" />
+		<part name="game_guest_09_w3_angry_2" x="204" y="420" />
+		
+		<!-- excited -->
+		<part name="game_guest_09_r1_excited_1" x="0" y="630" />
+		<part name="game_guest_09_r1_excited_2" x="204" y="630" />
+		<part name="game_guest_09_r1_excited_3" x="408" y="630" />
+		
+		<!-- game event 2 smoke -->
+		<part name="game_event_2_smoke_001" x="816" y="210" />
+		<part name="game_event_2_smoke_002" x="408" y="420" />
+	</texture>
+
+</resource>

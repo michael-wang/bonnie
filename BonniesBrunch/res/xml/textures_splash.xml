@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+    <texture name="splash" width="1024" height="1024" >
+        <part name="funnylab_logo_b1" x="0" y="0" />		<!-- 720 X 480 -->
+        <part name="studioirregular_logo" x="0" y="482" />	<!-- 720 X 480 -->
+        
+        <part name="level_menu_map_car_01" x="722" y="0" />	<!-- 102 X 69 -->
+    </texture>
+</resource>

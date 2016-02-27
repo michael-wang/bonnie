@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level level="1" sub_level="8" type="2" total_time="105" >
+	<TableConfiguration >
+		<Bagel />
+		<Croissant />
+		<Butter />
+		<Honey />
+		<MuffinLv1 />
+		<Milk />
+		<Coffee />
+		<Trashcan />
+	</TableConfiguration>
+	
+	<Period start_from="0" min_customer_interval="5" max_customer_interval="6" />
+	<Period start_from="25" min_customer_interval="4" max_customer_interval="5" />
+	<Period start_from="50" min_customer_interval="2" max_customer_interval="3" />
+	<Period start_from="90" min_customer_interval="5" max_customer_interval="6" />
+	
+	<Customer type="JoggingGirl" >
+		<Bagel />
+		<Butter />
+		<Coffee />
+	</Customer>
+	
+	<Customer type="WorkingMan" >
+		<MuffinCircle />
+		<Honey />
+		<Coffee />
+	</Customer>
+	
+	<Customer type="BalloonBoy" >
+		<Croissant />
+		<Honey />
+	</Customer>
+	
+	<Customer type="GirlWithDog" >
+		<MuffinCircle />
+		<Butter />
+	</Customer>
+	
+	<Customer type="Granny" >
+		<Croissant />
+		<Butter />
+		<Coffee />
+	</Customer>
+	
+</Level>

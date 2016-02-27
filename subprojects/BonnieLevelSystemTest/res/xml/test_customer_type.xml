@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level >
+	<Customer type="JoggingGirl" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="WorkingMan" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="BalloonBoy" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="GirlWithDog" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="FoodCritic" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="SuperStarLady" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="Physicist" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="Tramp" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="Granny" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+	<Customer type="SuperStarMan" >
+		<Bagel />
+	</Customer>
+	<Dummy />
+
+</Level>

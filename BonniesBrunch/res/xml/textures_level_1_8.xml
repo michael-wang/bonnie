@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+
+	<!--  tutorial -->
+	<texture name="tutorial_base" width="1024" height="1024" >
+	    <!-- bonnie -->
+	    <part name="tutorial_bonnie_great_1" x="0" y="0" />	<!-- 182 X 214 -->
+	    <part name="tutorial_bonnie_great_2" x="184" y="0" />
+	    <part name="tutorial_bonnie_normal_1" x="368" y="0" />
+	    <part name="tutorial_bonnie_normal_2" x="552" y="0" />
+	    <part name="tutorial_bonnie_normal_3" x="736" y="0" />
+	    <part name="tutorial_bonnie_normal_4" x="0" y="216" />
+	    <part name="tutorial_bonnie_normal_5" x="184" y="216" />
+	    
+	    <part name="tutorial_frame_ok_pressed" x="366" y="216" />	<!-- 74 X 74 -->
+	    <part name="tutorial_frame_ok" x="366" y="290" />
+	    
+	    <part name="tutorial_frame_skip_pressed" x="440" y="216" />	<!-- 179 X 50 -->
+	    <part name="tutorial_frame_skip" x="440" y="266" />
+	    <part name="tutorial_sign_arrow_001" x="440" y="316" />	<!-- 57 X 83 -->
+	    
+	    <part name="tutorial_sign_tap_001" x="620" y="216" />	<!-- 157 X 59 -->
+	    <part name="tutorial_sign_tap_002" x="620" y="275" />	<!-- 275 X 59 -->
+	    <part name="tutorial_sign_tap_003" x="620" y="334" />	<!-- 392 X 59 -->
+	    <part name="tutorial_sign_tap_004" x="620" y="393" />	<!-- 258 X 47 -->
+	    <part name="tutorial_sign_tap_005" x="620" y="452" />	<!-- 392 X 59 -->
+	    <part name="game_text_4_tutorial" x="620" y="511" />	<!-- 387 X 110 -->
+	    
+	    <part name="tutorial_frame_big_001" x="0" y="432" />	<!-- 550 X 196 -->
+	    
+	    <part name="tutorial_1_1_text_002" x="0" y="628" />		<!-- 402 X 124 -->
+	    <part name="tutorial_1_1_text_004" x="402" y="628" />
+	    <part name="tutorial_1_1_text_005" x="0" y="752" />
+	    <part name="tutorial_1_6_text_001" x="402" y="752" />
+	    <part name="tutorial_1_6_text_002" x="0" y="876" />
+	</texture>
+	
+	<!-- what's new dialog -->
+    <texture name="whats_new-1" width="1024" height="1024" >
+        <part name="card_bg" x="0" y="0" />			<!-- 720 X 480 -->
+        <part name="card_bg_new" x="722" y="0" />	<!-- 135 X 135 -->
+	    <part name="tutorial_frame_ok_pressed" x="722" y="136" />	<!-- 74 X 74 -->
+	    <part name="tutorial_frame_ok" x="796" y="136" />
+        
+        <part name="card_1_8_g_11" x="0" y="482" /> <!-- 495 X 391 -->
+        <part name="card_1_8_m_waffle_circular" x="496" y="482" /> <!-- 495 X 391 -->
+    </texture>
+
+</resource>

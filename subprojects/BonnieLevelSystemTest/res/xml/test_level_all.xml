@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level level="1" sub_level="3" type="1" total_time="40" >
+	<TableConfiguration >
+		<Bagel />
+		<Croissant />
+		<Butter />
+		<Honey />
+		<Trashcan />
+	</TableConfiguration>
+	
+	<Period start_from="0" min_customer_interval="5" max_customer_interval="6" />
+	<Period start_from="15" min_customer_interval="3" max_customer_interval="4" />
+	<Period start_from="30" min_customer_interval="5" max_customer_interval="6" />
+	
+	<Customer type="JoggingGirl" start_appearing_time="0" min_interval="5" max_interval="6" >
+		<Bagel />
+		<Butter />
+	</Customer>
+	
+	<Customer type="BalloonBoy" start_appearing_time="15" min_interval="3" max_interval="4" >
+		<Bagel />
+		<Croissant />
+		<Butter />
+	</Customer>
+	
+	<Customer type="WorkingMan" start_appearing_time="30" min_interval="5" max_interval="6" >
+		<Croissant />
+		<Honey />
+	</Customer>
+	
+</Level>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+    <texture name="open_ep4" width="1024" height="1024" >
+        <part name="opening_bg_ep4" x="0" y="0" />		<!-- 720 X 480 -->
+    </texture>
+</resource>

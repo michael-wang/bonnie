@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bonnie\'s Brunch</string>
+    
+    <string name="in_app_billing_not_supported">Your device does not support In-app Billing.</string>
+    <string name="purchase_full_version_canceled">Full version purchase canceled.</string>
+    <string name="purchase_full_version_success">Full version purchased!</string>
+    
+    <string name="hint_score_lock">Please complete previous levels first.</string>
+    
+    <string name="license_check_failed_title">Google Play Licensing Check Failed</string>
+    <string name="license_check_failed_message">Please help us to creat more fun games, by playing a legal copy. Thank you.</string>
+    <string name="license_check_later">Later</string>
+    
+    <string name="request_rating_title">Rating Bonnie\'s Brunch</string>
+    <string name="request_rating_message">Your 5-stars rating encourage us to do even better!</string>
+    <string name="sure">Sure!</string>
+    <string name="not_now">Not now</string>
+</resources>

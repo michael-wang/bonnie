@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Level level="2" sub_level="8" type="1" total_time="150" >
+	<TableConfiguration >
+		<Bagel />
+		<Croissant />
+		<Butter />
+		<Honey />
+		<Tomato />
+		<Lettuce />
+		<Cheese />
+		<MuffinLv2 />
+		<ToastLv2 />
+		<Milk />
+		<Coffee />
+		<CandyLv1 />
+		<Trashcan />
+	</TableConfiguration>
+	
+	<Period start_from="0" min_customer_interval="5" max_customer_interval="8" />
+	<Period start_from="30" min_customer_interval="5" max_customer_interval="8" />
+	<Period start_from="80" min_customer_interval="2" max_customer_interval="3" />
+	<Period start_from="130" min_customer_interval="6" max_customer_interval="8" />
+	
+	<Customer type="JoggingGirl" >
+		<ToastWhite />
+		<ToastBlack />
+		<Lettuce />
+		<Honey />
+	</Customer>
+	
+	<Customer type="WorkingMan" >
+		<MuffinSquare />
+		<Tomato />
+		<Coffee />
+	</Customer>
+	
+	<Customer type="BalloonBoy" >
+		<MuffinSquare />
+		<ToastWhite />
+		<Milk />
+	</Customer>
+	
+	<Customer type="GirlWithDog" >
+		<MuffinCircle />
+		<Butter />
+		<Milk />
+	</Customer>
+	
+	<Customer type="Granny" >
+		<Begal />
+		<ToastWhite />
+		<Lettuce />
+		<Coffee />
+	</Customer>
+	
+	<Customer type="SuperStarMan" >
+		<Croissant />
+		<ToastBlack />
+		<Cheese />
+		<Coffee />
+	</Customer>
+	
+	<Customer type="Physicist" >
+		<ToastWhite />
+		<ToastBlack />
+		<Lettuce />
+		<Tomato />
+		<Coffee />
+	</Customer>
+	
+</Level>

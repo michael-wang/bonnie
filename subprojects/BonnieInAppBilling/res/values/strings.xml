@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BonnieInAppBillingActivity!</string>
+    <string name="app_name">BonnieInAppBilling</string>
+    <string name="buy">Buy Item</string>
+    <string name="restore">Restore Transaction</string>
+
+</resources>
